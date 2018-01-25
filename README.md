@@ -1,4 +1,4 @@
-###测试环境 
+### 测试环境 
 Ubuntu 16.04 + Nginx + PHP 7.1.12 + MySQL5.7 理论上所有LAMP LNMP 都完全兼容
 
 本地开启服务器php -S 127.0.0.1:8081
@@ -31,7 +31,7 @@ CREATE TABLE activity
   location TEXT NOT NULL
 )
   ENGINE = InnoDB;
-  
+
 ```
 
 ### 使用方法
@@ -47,4 +47,4 @@ username password
 GET list.php 活动列表
 ```
 
-###所有数据都是JSON格式返回。
+### 所有数据都是JSON格式返回。
